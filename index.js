@@ -1,1 +1,4 @@
-// code your solution here
+function superbowlWin(games) {
+    let winGame = games.find((games) => games.result === "W")
+    if (winGame) {return winGame.year;}
+}
